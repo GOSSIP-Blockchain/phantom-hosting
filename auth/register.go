@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/boltdb/bolt"
-	"github.com/jackkdev/phantom-hosting/utils"
+	"github.com/carsenk/phantom-hosting/utils"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
 )

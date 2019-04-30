@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/jackkdev/phantom-hosting/utils"
+	"github.com/carsenk/phantom-hosting/utils"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
 )

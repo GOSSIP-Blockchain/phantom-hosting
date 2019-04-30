@@ -1,8 +1,8 @@
 # Phantom Hosting
 
 [![The SSPL License](https://img.shields.io/badge/license-SSPL-orange.svg?style=flat-square)](https://www.mongodb.com/licensing/server-side-public-license)
-[![Travis](https://img.shields.io/travis/jackkdev/phantom-hosting.svg?style=flat-square)](https://travis-ci.org/jackkdev/phantom-hosting)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jackkdev/phantom-hosting?style=flat-square)](https://goreportcard.com/report/github.com/jackkdev/phantom-hosting)
+[![Travis](https://img.shields.io/travis/carsenk/phantom-hosting.svg?style=flat-square)](https://travis-ci.org/carsenk/phantom-hosting)
+[![Go Report Card](https://goreportcard.com/badge/github.com/carsenk/phantom-hosting?style=flat-square)](https://goreportcard.com/report/github.com/carsenk/phantom-hosting)
 
 The all in one self hosted Phantom Masternode solution.
 
@@ -12,7 +12,7 @@ The all in one self hosted Phantom Masternode solution.
 
 ## Installation and Usage
 ```
-git clone https://github.com/jackkdev/phantom-hosting.git
+git clone https://github.com/carsenk/phantom-hosting.git
 cd phantom-hosting
 dep ensure
 go run main.go
@@ -97,4 +97,4 @@ POST http://localhost:8000/api/addmasternode
 The most recent masternode string created, which is stored in memory, will be appended to the **masternodes.txt** configuration file.
 
 ## Credits
-* BreakCrypto - [Phantom Node Daemon](https://github.com/breakcrypto/phantom)
+* BreakCrypto/Carsenk/Jackkdev - [Phantom Node Daemon](https://github.com/carsenk/phantom)
